@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  border: 10px solid #ffff;
+  height: 100dvh;
+}
+
+/* Navigation */
+
+.navbar {
+  margin: 0.5rem;
+  overflow: hidden;
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24% 24%;
+  list-style: none;
+}
+
+.navbar ul li {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.navbar ul li:first-child {
+  font-weight: 600;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .hero-img img {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 2px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text .hero-heading {
+  margin-left: 1.5rem;
+}
+
+.hero-text .hero-heading h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 4rem;
+}
+
+.hero-text .hero-btn {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-btn button {
+  border: none;
+  background: #ccc;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.hero-btn button i {
+  margin-left: 7.3rem;
+  transform: rotate(-40deg);
+}
+
+.hero-text .hero-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-top: 11.5rem;
+}
+
+.hero-gallery img {
+  width: 9.5rem;
+  height: 11.5rem;
+}
+
+.hero-text .hero-gallery-text {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.hero-gallery-text p {
+  color: #a9a9a9;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 1.1;
+}
